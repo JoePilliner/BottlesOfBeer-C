@@ -1,9 +1,5 @@
 # Bottles of Beer (C)
 
-## Program Specification:
-
-* P
-
 ## Usage:
 
 * ```bottlesofbeer initial_number``` poetically counts down the number of fictional bottles of beer on a fictional wall from an arbitrary unsigned long long integer initial number of fictional bottles of beer on said wall ```initial_number```, with this count optionally underflowing (because I think integer underflows are cute)
