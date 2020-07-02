@@ -6,4 +6,6 @@
 
 ## Instructions:
 
-* Define ```BOTTLESOFBEER_UNDERFLOW``` to be 0 or undefine ```BOTTLESOFBEER_UNDERFLOW```, and the number of fictional bottles of beer on the fictional wall will neither underflow nor appear to underflow; define ```BOTTLESOFBEER_UNDERFLOW``` to be non-zero, and the fictional number of bottles of beer on the fictional wall will not underflow, but will appear to underflow.
+1. In bottlesofbeer.c, define ```BOTTLESOFBEER_UNDERFLOW``` to be 0 or undefine ```BOTTLESOFBEER_UNDERFLOW```, and the number of fictional bottles of beer on the fictional wall will neither underflow nor appear to underflow; define ```BOTTLESOFBEER_UNDERFLOW``` to be non-zero, and the fictional number of bottles of beer on the fictional wall will not underflow, but will appear to underflow.
+
+2. Compile ```bottlesofbeer.c``` to ```bottlesofbeer``` (\*Nix users may use GNU Make (```Make```) to compile ```src/bottlesofbeer.c``` to ```bin/bottlesofbeer``` with the GNU Compiler Collection (```cc```)).
